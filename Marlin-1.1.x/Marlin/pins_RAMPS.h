@@ -466,8 +466,8 @@
 
       #define SD_DETECT_PIN 49  // only needed if using onboard SD card
 
-      #define DOGLCD_CS     25
-      #define DOGLCD_A0     27
+      #define DOGLCD_CS     27
+      #define DOGLCD_A0     25
 
     #else
 
