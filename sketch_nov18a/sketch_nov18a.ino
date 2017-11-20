@@ -147,8 +147,14 @@ void turnMotor(int axis) {
 }
 
 void loop() {
+<<<<<<< HEAD
   while (stepsInThisRevolution < stepsPerRevolution) {
     double angle = 360 * ((double)stepsInThisRevolution / (double)stepsPerRevolution);
+=======
+  while (stepsInThisRevolution < stepsPerRevolution) {ls
+  cd
+    double angle = 360 * (stepsInThisRevolution / stepsPerRevolution);
+>>>>>>> b6e34fc4156dd8c0cc5e5c0ed8cb2b8beafa35e3
     turnAll(angle);
   }
   stepsInThisRevolution = 0;
